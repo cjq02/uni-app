@@ -27,10 +27,12 @@
 uni.setTabBarItem({
   index: 0,
   text: 'text',
+  pagePath: '/pages/tab/index1',
   iconPath: '/path/to/iconPath',
   selectedIconPath: '/path/to/selectedIconPath'
 })
 ```
+pagePath必须是绝对路径。并且只有在tabBar页面设置etTabBarItem才有效。在其它页面设置无效。
 
 ### uni.setTabBarStyle(OBJECT)
 
